@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Post</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <h1>Create Post</h1>
+
+    <form id="myPostForm" action="CreatePosts.php" method="POST">
+        <label>Username:<input type="text" name="user_id"></label>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <p>Post</p>
+    <textarea rows="4" cols="50" name="content" form="myPostForm" id="content"></textarea>
+</body>
+</html>
